@@ -42,6 +42,7 @@ public class MainActivity extends AppCompatActivity {
         urlList.add(2,"http://chuantu.biz/t5/59/1491527935x2890171768.png");
         urlList.add(3,"http://chuantu.biz/t5/59/1491527935x2890171768.png");
 
+
         banner.setImages(urlList);
         banner.setImageLoader(new BannerImageLoader() {
             @Override
