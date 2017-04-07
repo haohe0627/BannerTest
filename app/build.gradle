@@ -31,4 +31,5 @@ dependencies {
     annotationProcessor 'com.jakewharton:butterknife-compiler:8.5.1'
     compile project(':banner')
     compile project(':picasso')
+    compile project(':common_utils')
 }

@@ -1,4 +1,4 @@
-package common_utils;
+package com.example.hh.common_utils;
 
 import android.content.Context;
 import android.text.TextUtils;

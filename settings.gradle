@@ -1,1 +1,1 @@
-include ':app', ':picasso', ':banner'
+include ':app', ':picasso', ':banner', ':common_utils'

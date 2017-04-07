@@ -19,7 +19,7 @@ import java.util.List;
 import butterknife.BindView;
 import butterknife.ButterKnife;
 import butterknife.Unbinder;
-import common_utils.ImageLoader;
+import com.example.hh.common_utils.ImageLoader;
 
 public class MainActivity extends AppCompatActivity {
 
@@ -41,7 +41,7 @@ public class MainActivity extends AppCompatActivity {
         urlList.add(1,"http://chuantu.biz/t5/59/1491527935x2890171768.png");
         urlList.add(2,"http://chuantu.biz/t5/59/1491527935x2890171768.png");
         urlList.add(3,"http://chuantu.biz/t5/59/1491527935x2890171768.png");
-
+        textView.setText(1+"");
 
         banner.setImages(urlList);
         banner.setImageLoader(new BannerImageLoader() {
